@@ -1,5 +1,7 @@
-# install Chrome
 sudo apt update
+sudo apt upgrade
+
+# install Chrome
 sudo apt install wget
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb 
@@ -15,3 +17,8 @@ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo ap
 sudo apt update
 sudo apt install -y ros-noetic-desktop-full
 
+#install VS code
+sudo snap install --classic code
+
+#install Slack
+sudo snap install slack
